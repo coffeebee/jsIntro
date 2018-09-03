@@ -17,3 +17,22 @@ interview classic that a significant number of candidates
 fail. Try your best!
 */
 
+let output = 1;
+for(let i = 1; i <= 100; i++){
+    output = i;
+
+    if((output%5===0) && (output%3===0)){
+        console.log("FizzBuzz");
+    }
+    else if(output%3===0){
+        console.log("Fizz");
+    }
+    else if(output%5===0){
+        console.log("Buzz");
+    }    
+    else{
+        output = i;
+        console.log(output);
+    }
+    
+}
