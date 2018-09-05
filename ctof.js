@@ -9,7 +9,7 @@ The conversion between scales is given by the formula:
 [°F] = [°C] x 9/5 + 32.
 */
 
-let tempCelcius = 0;
+let tempCelcius = 37;
 console.log(tempCelcius);
 
 tempCelcius = tempCelcius * (9/5) + 32;

@@ -30,8 +30,7 @@ for(let i = 1; i <= 100; i++){
     else if(output%5===0){
         console.log("Buzz");
     }    
-    else{
-        output = i;
+    else{        
         console.log(output);
     }
     
